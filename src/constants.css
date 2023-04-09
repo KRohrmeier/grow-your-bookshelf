@@ -1,0 +1,14 @@
+:root {
+
+  /* flower garden theme (fg) */
+  --fg-green: #b7d83e;
+  --fg-yellow: #e9e929;
+  --fg-orange: #fca438;
+  --fg-pink: #ecaaf2;
+  --fg-blue: #aadcf2;
+  --fg-dark-brown: #45321e;
+  
+  --off-white-yellow: #feffd6;
+
+  color: var(--fg-dark-brown);
+}

@@ -1,0 +1,10 @@
+@import '../constants.css';
+
+.login-form .input-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-form button[type=submit] {
+  background-color: var(--fg-green);
+}

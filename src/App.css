@@ -1,15 +1,9 @@
+@import './constants.css';
+
 .App {
   text-align: center;
   margin: 0;
   padding: 0;
-
-  /* flower garden theme (fg) */
-  --fg-green: #b7d83e;
-  --fg-yellow: #e9e929;
-  --fg-orange: #fca438;
-  --fg-pink: #ecaaf2;
-  --fg-blue: #aadcf2;
-  --fg-dark-brown: #45321e;
 }
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -54,4 +48,17 @@ button.primary {
 button.secondary {
   background-color: var(--fg-yellow);
   color: var(--fg-dark-brown);
+}
+
+button.dismiss-button {
+  background-color: #45321e; /*var(--fg-dark-brown);*/
+  color: #feffd6; /*var(--off-white-yellow);*/
+  font-size: small;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.move-right {
+  display: flex;
+  justify-content: flex-end;
 }
